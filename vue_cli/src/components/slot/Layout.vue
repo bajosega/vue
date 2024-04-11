@@ -42,6 +42,8 @@
           <div  class="mt-2">
             <slot> contenido de la aplicacion</slot>
 
+            
+
           </div>
           
 
