@@ -18,9 +18,9 @@
     <button> Limpiar</button>
    
      <div v-if="encontrado"> Encontrado </div>
-     <div v-else-if="encontrado"> NO Encontrado </div>
+     <div v-else="encontrado"> NO Encontrado </div>
     
-     <h4>Busqueeda usuarios</h4>
+     <h4>Busqueda usuarios</h4>
      <input 
      class="form-control mt-2" 
      placeholder="Buscar Usuarios"
@@ -74,7 +74,7 @@ const limpiarBusqueda=()=>{
 
     inputValue.value=false
     encontradoAplicado.value=false
-    encontrado=false
+    encontrado.value=false
 }
 
 
